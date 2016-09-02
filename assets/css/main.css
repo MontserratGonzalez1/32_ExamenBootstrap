@@ -11,10 +11,20 @@ nav ul {
 	list-style:none;
 }
 
-nav ul li {
+nav > li {
+	padding: 10px 12px;
+	display: block;
+}
+
+
+nav li {
 	display: inline-block;
 	position: relative;
 	margin-left: 70px;
+}
+
+nav li:hover{
+	background: #ffc2b2;
 }
 
 nav ul li a{
@@ -22,9 +32,33 @@ nav ul li a{
 	text-decoration: none;
 }
 
-nav ul li:hover{
-	background: #ffc2b2;
-	color: #fff;
+nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 0px;
+
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li ul li {
+	position: relative;
+}
+
+.slide1 {
+	background-image: url("../images/slider1.jpg");
+	background-size: cover;
+	height: 350px;
+}
+
+.marcoblanco {
+	border: solid #fff 2px;
+	height: 80px;
+	width: 60%;
+	margin-top: 90px;
+	margin-left: 260px;
 }
 
 
