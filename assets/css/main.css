@@ -1,0 +1,39 @@
+
+nav{
+	background-color: #e3e2e2;
+	z-index: 1000;
+	max-width: 1000px;
+	width: 95%;
+	margin: 20px auto;
+}
+
+nav ul {
+	list-style:none;
+}
+
+nav ul li {
+	display: inline-block;
+	position: relative;
+	margin-left: 70px;
+}
+
+nav ul li a{
+	display: block;
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	background: #ffc2b2;
+	color: #fff;
+}
+
+
+		/* EXTRAS */
+
+.backgris-c {
+	background-color: #e3e2e2;
+}
+
+.top20 {
+	margin-top: 20px;
+}
